@@ -1,6 +1,6 @@
 /*
 purpose of our application:
-Allow a user to creat, read, edit and delete products from a collection of products
+Allow a user to create, read, edit and delete products from a collection of products
 We will prompt a user for the desired operation, and then perform it
 what "concerns" will we have?
 1. Data access
@@ -14,9 +14,9 @@ const require = createRequire(import.meta.url);
 var prompt = require('prompt');
 
 import { readDatabase } from "./Data/import_db.js";
-import { getAllProducts, getProductByID } from "./operations/read.js";
+import { getAllProducts, getProductByID } from "./operations/read.js"; //complete
 import { removeProductById } from "./operations/delete.js";
-import { createProduct } from './operations/create.js';
+import { createProduct } from './operations/create.js'; //IP
 import { updateProductByID } from './operations/update.js';
 
 
