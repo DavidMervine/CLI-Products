@@ -4,15 +4,12 @@
   "description": "Show how to do CRUD in JS from CLI",
   "main": "app,js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "David Mervine",
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "mysql2": "^3.9.3",
-    "prompt": "^1.3.0",
-    "sequelize": "^6.37.2"
+    "prompt": "^1.3.0"
   }
 }
